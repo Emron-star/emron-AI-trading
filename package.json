@@ -1,0 +1,14 @@
+{
+  "name": "deriv-auto-trader-phase0",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phase 0 API verification spike for the Deriv Auto-Trader Console build",
+  "type": "module",
+  "scripts": {
+    "spike": "node scripts/spike.mjs",
+    "check": "node --check scripts/spike.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
